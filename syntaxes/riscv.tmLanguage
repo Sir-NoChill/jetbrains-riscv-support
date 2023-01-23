@@ -20,16 +20,18 @@
         <key>match</key>
         <string>\b(la|lb|lh|lw|ld|nop|li|mv|not|neg|negw|sext\.w|seqz|snez|sltz|sgtz|beqz|bnez|blez|bgez|bltz|bgtz|bgt|ble|bgtu|bleu|j|jal|jr|ret|call|tail|fence|csr[r|w|s|c]|csr[w|s|c]i)\b</string>
         <key>name</key>
-        <string>support.function.pseudo.riscv</string>
+        <string>markup.quote</string>
         <key>comment</key>
-        <string>ok actually this are instructions, but one also could call them funtions…</string>
+        <string>ok actually this are instructions, but one also could call them funtions… NOTE: the original scope was support.function.riscv</string>
       </dict>
 
       <dict>
         <key>match</key>
         <string>\b(add|addw|auipc|lui|jalr|beq|bne|blt|bge|bltu|bgeu|lb|lh|lw|ld|lbu|lhu|sb|sh|sw|sd|addi|addiw|slti|sltiu|xori|ori|andi|slli|slliw|srli|srliw|srai|sraiw|sub|subw|sll|sllw|slt|sltu|xor|srl|srlw|sra|sraw|or|and|fence|fence\.i|csrrw|csrrs|csrrc|csrrwi|csrrsi|csrrci)\b</string>
         <key>name</key>
-        <string>support.function.riscv</string>
+        <string>markup.quote</string>
+        <key>comment</key>
+        <string>NOTE: the original scope was support.function.riscv</string>
       </dict>
 
       <dict>
