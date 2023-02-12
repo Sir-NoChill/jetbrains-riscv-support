@@ -2,6 +2,11 @@
 
 This project is copied and adapted from [MIPS Support](https://github.com/kdarkhan/vscode-mips-support)
 
+#### Installation
+
+ - git clone or download and extract this repo as a zip file
+ - Open Settings -> Editor -> TextMateBundles -> + -> select the folder holding this repo
+
 ## Features
 This VSCode extension provides basic RISC-V colorization and snippets support.
 
